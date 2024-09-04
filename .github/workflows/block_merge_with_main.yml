@@ -14,7 +14,7 @@ jobs:
           exit 1
 
       - name: Check if merging to dev
-        if: github.base_ref == 'dev' && github.head_ref != 'test'
+        if: github.base_ref == 'dev' && github.head_ref != 'test' && github.head_ref == 'main'
         run: |
           echo "ERROR: You can only merge to dev from test."
           exit 1
