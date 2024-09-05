@@ -2,7 +2,7 @@ name: Deployment on Testing
 
 on:
   pull_request:
-    branches: test
+    branches: testing
     types: closed
 
 jobs:
