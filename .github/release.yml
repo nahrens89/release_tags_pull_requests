@@ -1,0 +1,28 @@
+changelog:
+  exclude:
+    labels:
+      - ci
+      - chore
+      - style
+      - refactor
+      - test
+    authors:
+      - octocat
+      - dependabot[bot]
+  categories:
+    - title: Breaking Changes
+      labels:
+        - BREAKING CHANGES
+    - title: Exciting New Features 🎉
+      labels:
+        - feat
+    - title: Bugfixes 🛠️
+      labels:
+        - fix
+        - hotfix
+    - title: Changes to Documentation
+      labels:
+        - docs
+    - title: Other Changes
+      labels:
+        - "*"
