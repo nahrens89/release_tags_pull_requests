@@ -2,11 +2,12 @@
 Feature Module Description
 """
 
-def feature_one() -> None:
+def feature_1() -> None:
     """
     Function Description
     """
     print("Feature One")
+    print("Now it will work!")
 
 def feature_two() -> None:
     """
