@@ -1,13 +1,12 @@
-name: Release
+name: Release project
 on:
-    pull_request:
-      branches: main
-      types: closed
+  workflow_dispatch:
 
 jobs:
   release:
-    if: github.event.pull_request.merged
+    name: Release
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
