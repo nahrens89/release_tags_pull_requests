@@ -1,0 +1,8 @@
+name: release_tag
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pytest
+prefix: /home/nico/miniconda3/envs/release_tag
