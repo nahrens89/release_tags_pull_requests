@@ -2,7 +2,7 @@
 Feature Module Description
 """
 
-def feature_one() -> None:
+def feature_1() -> None:
     """
     Function Description
     """
