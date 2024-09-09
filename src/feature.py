@@ -14,3 +14,8 @@ def feature_two() -> None:
     Function Description
     """
     print("Feature Two")
+
+def feature_four():
+    """
+    """
+    print("stuff")
