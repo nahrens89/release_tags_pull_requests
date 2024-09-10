@@ -47,7 +47,7 @@ def feature_five():
     print("Feature Five")
 
 
-def feature_nico():
+def feature_ni():
     """
     This is a feature written bei Nico
     """
