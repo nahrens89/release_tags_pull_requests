@@ -17,3 +17,11 @@ def test_feature_seven():
     This works!
     """
     assert 7 + 7 == 14
+
+
+def test_feature_eight():
+    """
+    Test for detection of feature eight.
+    This works!
+    """
+    assert 8 + 8 == 16
