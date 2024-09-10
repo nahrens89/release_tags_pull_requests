@@ -25,7 +25,7 @@ def feature_three() -> None:
     print("Feature Two")
 
 
-def feature_four_0() -> None:
+def feature_four():
     """
     Description added
     """
@@ -37,6 +37,14 @@ def feature_four_1():
     Description changed
     """
     print("Feature Four point one")
+
+
+
+def feature_five():
+    """
+    Description added
+    """
+    print("Feature Five")
 
 
 def feature_nico():
