@@ -13,5 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Release
-        uses: huggingface/semver-release-action@latest
+      - name: Helm Publish Action
+        uses: huggingface/helm-publish-action@latest
+        with:
+          branches: ["prod"]
